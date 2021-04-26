@@ -1,0 +1,17 @@
+.city {
+  display: flex;
+}
+
+.cities {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cities>* {
+  flex: 25%;
+}
+
+.explore-img {
+  width: 64px;
+  height: 64px;
+}
