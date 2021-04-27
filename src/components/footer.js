@@ -8,7 +8,7 @@ const footer = [
  function Footer(props){
     return(
         <div className="mr-5">
-        <h6>{props.title}</h6>
+        <h6 className="mb-3">{props.title}</h6>
         <a href={props.link1} target="_blank"><p className="footer-link">{props.nav1}</p></a>
         <a href={props.link2} target="_blank"><p className="footer-link">{props.nav2}</p></a>
         <a href={props.link3} target="_blank"><p className="footer-link">{props.nav3}</p></a>
